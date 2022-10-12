@@ -5,8 +5,10 @@ import TopChefs from '../topchefs';
 import MainPage from '../mainpage';
 const Home= () => {
   return (
-    <div className='w-fit h-fit md:w-screen md:h-screen lg:w-screen lg:h-screen '>
+    <div className='w-screen '>
+
       <Header/>
+
       <MainPage/>
       <TopChefs/>
       <Footer/>

@@ -8,6 +8,9 @@ module.exports = {
         'poppins': ['Poppins', 'sans-serif'] ,
         'satisfy': ['Satisfy', 'cursive']
       },
+      height: {
+        97: "550px",
+      },
     },
     borderRadius:{
       '3xl':'2rem',
@@ -18,5 +21,5 @@ module.exports = {
       'lg': '1700px'
     }
   },
-  plugins: [],
+  plugins: [require("@tailwindcss/line-clamp")],
 }

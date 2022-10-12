@@ -1,8 +1,8 @@
 import React from "react";
 
-const MainPage = () => {
+const Varieties = () => {
   return (
-    <div className="w-screen" style={{height: '40%'}}>
+    <div className="w-full  h-full">
       {/* header */}
       <div className="flex flex-col justify-center items-center mb-3">
         <div className="flex justify-center items-center flex-col">
@@ -17,7 +17,7 @@ const MainPage = () => {
       </div>
 
       {/* midel section */}
-      <div className="w-full h-full grid sm:grid-cols-2 gap-x-2 gap-y-3 sm:gap-y-0">
+      <div className="w-full h-full grid sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 gap-x-2 gap-y-3 sm:gap-y-0">
         <div className="w-full flex flex-col h-97 relative">
           <div className=" w-full absolute z-10 h-97 ">
             <img
@@ -384,7 +384,7 @@ const MainPage = () => {
       </div>
 
       {/* footer */}
-      <div className="grid sm:grid-cols-3 mt-24 mx-4 gap-x-7 mb-3">
+      <div className="grid sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 mt-24 mx-4 gap-x-7 mb-3">
         <div className=" py-2 px-4">
           <p className="text-3xl font-bold mb-3 font-Poppins">Indian Cuisine</p>
           <p className="text-lg font-medium line-clamp-3 font-Poppins">
@@ -423,4 +423,4 @@ const MainPage = () => {
   );
 };
 
-export default MainPage;
+export default Varieties;
