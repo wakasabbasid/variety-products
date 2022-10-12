@@ -3,7 +3,7 @@ import Footer from '../footer';
 import Header from '../header';
 import TopChefs from '../topchefs';
 
-const Dashboard = () => {
+const Home= () => {
   return (
     <div className='w-fit h-fit md:w-screen md:h-screen lg:w-screen lg:h-screen '>
       <Header/>
@@ -13,4 +13,4 @@ const Dashboard = () => {
   )
 }
 
-export default Dashboard;
+export default Home;

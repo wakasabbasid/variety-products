@@ -10,7 +10,12 @@ module.exports = {
       },
     },
     borderRadius:{
-      '3xl':'2rem'
+      '3xl':'2rem',
+      '2xl':'1.5rem'
+    },
+    screens:{
+      'md':'640px',
+      'lg': '1700px'
     }
   },
   plugins: [],

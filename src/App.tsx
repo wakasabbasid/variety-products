@@ -1,5 +1,5 @@
 import React from "react";
-import Dashboard from "./components/Dashboard/Dashboard";
+import Home from "./components/home/home";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 const App = () => {
@@ -7,7 +7,7 @@ const App = () => {
     <div>
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<Dashboard />} />
+          <Route path="/" element={<Home />} />
         </Routes>
       </BrowserRouter>
     </div>
