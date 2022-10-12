@@ -19,7 +19,7 @@ const foodData = [{ img: Vegetable, name: "VEGETABLES", description: 'Lorem Ipsu
 
 const TopChefs = () => {
   return (
-    <div className='flex flex-col items-center pt-5 w-screen '>
+    <div className='flex flex-col items-center pt-5 w-screen 'style={{height:'40%'}} >
       <p className=' text-xs md:text-base lg:text-6xl  font-poppins font-extralight pt-2 lg:pt-10 lg:pb-5'>TOP CHEFS</p>
       <p className=' border-b  lg:border-b-4 border-slate-800 w-10 md:w-14 lg:w-32 ' />
       <div className='relative w-full ' >

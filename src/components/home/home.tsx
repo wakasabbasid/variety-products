@@ -2,11 +2,12 @@ import React from 'react'
 import Footer from '../footer';
 import Header from '../header';
 import TopChefs from '../topchefs';
-
+import MainPage from '../mainpage';
 const Home= () => {
   return (
     <div className='w-fit h-fit md:w-screen md:h-screen lg:w-screen lg:h-screen '>
       <Header/>
+      <MainPage/>
       <TopChefs/>
       <Footer/>
     </div>
