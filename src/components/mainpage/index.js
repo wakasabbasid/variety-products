@@ -2,22 +2,22 @@ import React from "react";
 
 const Varieties = () => {
   return (
-    <div className="w-full  h-full">
+    <div className="w-full  h-full pl-10 pr-10">
       {/* header */}
       <div className="flex flex-col justify-center items-center mb-3">
         <div className="flex justify-center items-center flex-col">
           <p
-            className=" w-full h-10 text-4xl font-normal leading-10 font-Poppins"
+            className="text-xs md:text-base lg:text-2xl  font-poppins font-extralight pt-5 lg:pb-1"
             style={{ fontStyle: "normal" }}
           >
             VARIETIES
           </p>
-          <div className="border-b-2 w-32 h-1 bg-black"></div>
+          <div className="border-b  lg:border-b-2 border-slate-800 w-10 md:w-14 lg:w-16 pt-3"></div>
         </div>
       </div>
 
       {/* midel section */}
-      <div className="w-full h-full grid sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 gap-x-2 gap-y-3 sm:gap-y-0">
+      <div className="mt-5 w-full h-full grid sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 gap-x-2 gap-y-3 sm:gap-y-0">
         <div className="w-full flex flex-col h-97 relative">
           <div className=" w-full absolute z-10 h-97 ">
             <img
