@@ -34,7 +34,7 @@ const TopChefs = () => {
               </div>) : (<div className='flex flex-col gap-2  lg:mt-36 lg:gap-5 items-center justify-center h-56 w-3/12  lg:w-2/12 lg:h-fit  '>
                 <img src={chef.img} alt="" className='mt-5 w-9 h-9 md:w-20 md:h-20 lg:w-28 lg:h-28' />
                 <p className='text-xs  lg:text-xl font-semibold text-white font-poppins w-24 md:w-fit lg:w-fit'>{chef.name}</p>
-                <a className='text-xs   lg:text-base text-white font-poppins   w-10 h-10  md:whitespace-normal lg:whitespace-normal truncate   md:w-8/12 lg:w-8/12 lg:h-56 text-center leading-normal cursor-pointer ' title={`${chef.position}`} href="javascript:void(0);"> {chef.position}</a>
+                <a className='text-xs   lg:text-base text-white font-poppins   w-10 h-10  md:whitespace-normal lg:whitespace-normal truncate   md:w-9/12 lg:w-8/12 lg:h-56 text-center leading-normal cursor-pointer ' title={`${chef.position}`} href="javascript:void(0);"> {chef.position}</a>
 
               </div>)
           )
@@ -56,27 +56,27 @@ const TopChefs = () => {
                 <div className='flex flex-col gap-2 md:gap-4 lg:gap-10  md:h-44 lg:h-full items-center'>
                   <img src={foodData[0].img} className=' w-10 h-10 md:w-12 md:h-12 lg:w-24 lg:h-24' alt=''/>
                   <p className='text-xs  lg:text-lg font-semibold font-poppins '>{foodData[0].name}</p>
-                  <a className='text-xs  lg:text-base text-black font-poppins   w-10 h-10    lg:whitespace-normal truncate   md:w-4/12 md:h-56 lg:w-8/12 lg:h-56 text-center lg:leading-normal cursor-pointer b' title={`${foodData[0].description}`} href="javascript:void(0);"> {foodData[0].description}</a>
+                  <a className='text-xs  lg:text-base text-black font-poppins   w-10 h-10    lg:whitespace-normal truncate   md:w-8/12 md:h-56 lg:w-8/12 lg:h-56 text-center lg:leading-normal cursor-pointer b' title={`${foodData[0].description}`} href="javascript:void(0);"> {foodData[0].description}</a>
                 </div>
                 <div className='flex flex-col gap-2 md:gap-4 lg:gap-10  items-center   '>
                   <img src={foodData[1].img} className='w-10 h-10 md:w-12 md:h-12 lg:w-24 lg:h-24' alt='' />
                   <p className='text-xs  lg:text-lg font-semibold font-poppins '>{foodData[1].name}</p>
-                  <a className='text-xs  lg:text-base text-black font-poppins   w-10 h-10   lg:whitespace-normal truncate   md:w-4/12 md:h-fit lg:w-8/12 lg:h-56 text-center lg:leading-normal cursor-pointer ' title={`${foodData[1].description}`} href="javascript:void(0);"> {foodData[1].description}</a>
+                  <a className='text-xs  lg:text-base text-black font-poppins   w-10 h-10   lg:whitespace-normal truncate   md:w-8/12 md:h-fit lg:w-8/12 lg:h-56 text-center lg:leading-normal cursor-pointer ' title={`${foodData[1].description}`} href="javascript:void(0);"> {foodData[1].description}</a>
 
                 </div>
                 <div className='flex flex-col gap-2 md:gap-4 lg:gap-10  items-center'>
                   <img src={foodData[2].img} className=' w-10 h-10 md:w-12 md:h-12 lg:w-24 lg:h-24' alt=''/>
                   <p className='text-xs  lg:text-lg font-semibold font-poppins '>{foodData[2].name}</p>
-                  <a className='text-xs  lg:text-base text-black font-poppins   w-10 h-10   lg:whitespace-normal truncate   md:w-4/12 md:h-fit lg:w-8/12 lg:h-56 text-center lg:leading-normal cursor-pointer ' title={`${foodData[0].description}`} href="javascript:void(0);"> {foodData[0].description}</a>
+                  <a className='text-xs  lg:text-base text-black font-poppins   w-10 h-10   lg:whitespace-normal truncate   md:w-8/12 md:h-fit lg:w-8/12 lg:h-56 text-center lg:leading-normal cursor-pointer ' title={`${foodData[0].description}`} href="javascript:void(0);"> {foodData[0].description}</a>
                 </div>
                 <div className='flex flex-col  md:gap-4 lg:gap-10  items-center   '>
                   <img src={foodData[3].img} className='w-10 h-10 md:w-12 md:h-12 lg:w-24 lg:h-24' alt='' />
                   <p className='text-xs  lg:text-lg font-semibold font-poppins '>{foodData[3].name}</p>
-                  <a className='text-xs  lg:text-base text-black font-poppins   w-10 h-10    lg:whitespace-normal truncate   md:w-4/12 md:h-fit lg:w-8/12 lg:h-56 text-center lg:leading-normal cursor-pointer ' title={`${foodData[1].description}`} href="javascript:void(0);"> {foodData[1].description}</a>
+                  <a className='text-xs  lg:text-base text-black font-poppins   w-10 h-10    lg:whitespace-normal truncate   md:w-8/12 md:h-fit lg:w-8/12 lg:h-56 text-center lg:leading-normal cursor-pointer ' title={`${foodData[1].description}`} href="javascript:void(0);"> {foodData[1].description}</a>
                 </div>
               </div>
               </div>
-              <div className='h-fit lg:h-screen '>
+              <div className='h-fit  md:h-screen lg:h-screen '>
         </div>
       </div>
     </div>
